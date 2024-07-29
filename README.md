@@ -1,47 +1,28 @@
-# Infinex Proposals
+GP points for early depositors who didn't stake
 
-The new home for Infinex XIPs and IRs. View at [proposals.infinex.xyz](https://proposals.infinex.xyz)
 
-## How to contribute to Infinex Proposals
 
-### Contributing
+author	Franer
+type	Tokenomics
+network	All
+status	Draft
+created	2024-07-29
+updated	2023-07-29
 
-Before contributors begin writing their proposals, clearly identify what type of proposal you intend to make: [XIP](https://proposals.infinex.xyz/xips/xip-1), [IR](https://proposals.infinex.xyz/irs/ir-1-purpose-and-guidelines) or [WGC](https://proposals.infinex.xyz/wgcs/wgc-1). Contributors should follow their respective proposal templates, which are the first proposal of each category that specifically highlight their use-case and function. 
 
-Contributors should then look to make a fork of the this repository where they will write their proposal. Your first PR should be a final draft of the final proposal. It must then meet the correct formatting criteria enforced by the build (largely, correct metadata in the header).
+Proposal Summary
 
-An editor will then manually review the first PR for a new proposal. After the PR has been merged into the site, a public Discord AMA presentation must be arranged with the Infinex Council and community. This presentation is necessary for gathering community feedback on relevant proposals.
+This XIP proposes to reward GP to early users who are depositors but didn't stake. The Infinex blog starts by naming many times that depositors will be rewarded with GPs, it does tells afterwards that staking will also be necessary, but this has lead to a number of early users to just depositing in this new app.
 
-Once the proposal is assessed and mature enough to move into a vote, reach out to the Proposals Editor who can be found in the Infinex Discord. A vote will now be set-up:
+The idea is that to don't reward early depositors while airdropping to other external communities, isn't fair and defeats the purpose of giving GPs. Early depositors have contributed in a fair and desired way, by learning about Infinex and improving it's main metrics, like TLV, unique addresses and transactions.
 
-- For XIPs and WGCs, proposals are voted on by the Infinex Council. If a vote by the Infinex Council reaches a majority, the proposal is moved to Approved, otherwise it is Rejected.
-- For IRs, proposals are voted on by Synthetix Debt Share holders (which will be replaced by Patron NFT holders once released), and must be passed by a minimum of 60% of the actual debt shares voted. Votes last for a total period of 7 days, after which it is either Approved or Rejected. Future IRs may take into consideration Governance Points holders.
+To don't reward this early users will likely lead to lose them while they're the highest quality users/community members, they're the most likely to participate and the more unlikely to sell any future rewards since they're among the oldest. The Speedrun was made for this purpose in first place so we believe that this should be corrected.
 
-Once the proposal has been implemented by either the Infinex DAO, proposal author, or any other relevant parties, the proposal is assigned the Implemented status.
 
-### XIP status terms
+Specification Overview
 
-- `Draft` – The initial state of a new XIP before the Infinex Council and core contributors have assessed it.
-- `Feasibility` – a XIP that is being assessed for feasibility with an assigned Core Contributor.
-- `IC Review Pending` – a XIP that is awaiting a Infinex Council Review after the Author and Core Contributor are satisfied with feasibility.
-- `Vote In Progress` – a XIP currently being voted on by the council.
-- `Approved` – a XIP that has successfully reached a majority Infinex Council vote in favour.
-- `Rejected` – a XIP that has failed to reach a majority Infinex Council vote in favour.
-- `Implemented` – a XIP that has been released and implemented.
+Infinex's early users who deposited in the first 7 days after Speedrun started, and withdrawn less than 7 days before Craterun ended, will be allocated with 50% of the GP that would belong to them if having staked. This GP will come from the allocation called "GP airdrops", or if this one is already allocated then from the ones allocated to non early Speedrun users like other communities. (Some feedback or ideas about from where would be appreciated)
 
-### IR status terms
 
-- `Draft` – The initial state of a new IR.
-- `Vote In Progress` – an IR that is currently being voted on.
-- `Approved` – an IR that has been approved.
-- `Rejected` – an IR that has been rejected.
-- `Implemented` – an IR that has been released and implemented.
 
-### WGC status terms
 
-- `Draft` – The initial state of a new WGC before the Infinex Council has formally assessed it.
-- `Vote In Progress` – a WGC currently being voted on.
-- `Approved` – a WG that has successfully reached a majority Infinex Council vote in favour.
-- `Rejected` – a WGC that has failed to reach a majority Infinex Council vote in favour.
-- `Established` – A WG has been established.
-- `Dissolved` – A WG has been dissolved.
